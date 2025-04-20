@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane stylesheets="@styles.css" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="536.0" prefWidth="558.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.sda_combine.ControllerEventDetails">
+   <AnchorPane layoutX="-5.0" layoutY="118.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="419.0" prefWidth="564.0" style="-fx-background-color: #bfbee6;" />
+   <AnchorPane layoutX="-4.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" opacity="0.79" prefHeight="118.0" prefWidth="564.0" style="-fx-background-color: #e340c2;" />
+
+    <!-- ListView to display event names -->
+    <ListView fx:id="eventListView" layoutX="14.0" layoutY="175.0" prefHeight="124.0" prefWidth="523.0" />
+
+    <!-- Button to show event details -->
+    <Button layoutX="201.0" layoutY="313.0" onAction="#onShowEventDetails" style="-fx-background-color: linear-gradient(to right, #4CAF50, #81C784);                -fx-text-fill: white;                -fx-font-size: 16px;                -fx-font-weight: bold;                -fx-border-color: #2E7D32;                -fx-border-width: 2px;                -fx-border-radius: 15;                -fx-background-radius: 15;" text="Show Event Details" />
+
+    <!-- TextArea to display event info -->
+    <TextArea fx:id="eventDetailsTextArea" editable="false" layoutX="14.0" layoutY="371.0" prefHeight="124.0" prefWidth="523.0" wrapText="true" />
+   <Label layoutX="202.0" layoutY="78.0" text="Event Details">
+      <font>
+         <Font name="System Bold" size="24.0" />
+      </font>
+   </Label>
+   <Label alignment="CENTER" layoutX="194.0" layoutY="142.0" prefHeight="18.0" prefWidth="169.0" text="List of created Events">
+      <font>
+         <Font name="SansSerif Regular" size="14.0" />
+      </font></Label>
+   <ImageView fitHeight="127.0" fitWidth="149.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+         <Image url="@WhatsApp_Image_2024-11-24_at_17.30.26-removebg-preview.png" />
+      </image>
+   </ImageView>
+
+</AnchorPane>

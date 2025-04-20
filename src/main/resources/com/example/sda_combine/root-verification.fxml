@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.example.sda_combine.ControllerRootVerification"
+            prefHeight="400.0" prefWidth="600.0">
+    <!-- Add a VBox to organize input field and button -->
+    <VBox alignment="CENTER" spacing="10" layoutX="200" layoutY="150">
+        <!-- Input field for user input -->
+        <TextField fx:id="inputField" promptText="Enter your input here" />
+        <!-- Button to submit input -->
+        <Button text="Submit" onAction="#handleSubmit" />
+    </VBox>
+</AnchorPane>

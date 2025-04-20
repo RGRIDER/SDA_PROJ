@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane stylesheets="@styles.css" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="536.0" prefWidth="558.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.sda_combine.ControllerViewFeedback2">
+   <AnchorPane layoutX="-6.0" layoutY="118.0" prefHeight="419.0" prefWidth="564.0" style="-fx-background-color: #bfbee6;">
+      <children>
+         <Label fx:id="errorLabel" alignment="CENTER" layoutX="60.0" layoutY="16.0" prefHeight="20.0" prefWidth="399.0" textFill="#fd0000">
+            <font>
+               <Font size="14.0" />
+            </font>
+         </Label>
+      </children>
+   </AnchorPane>
+   <AnchorPane layoutX="-6.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" opacity="0.79" prefHeight="118.0" prefWidth="564.0" style="-fx-background-color: #e340c2;" />
+
+          <!-- Label for instructions -->
+    <Label fx:id="instructionsLabel" alignment="CENTER" layoutX="94.0" layoutY="82.0" prefHeight="35.0" prefWidth="375.0" style="-fx-font-size: 18; -fx-font-weight: bold;" text="View Feedbacks for Your Events">
+      <font>
+         <Font name="System Bold" size="24.0" />
+      </font>
+   </Label>
+
+    <!-- TextArea to display feedbacks -->
+    <TextArea fx:id="feedbackTextArea" editable="false" layoutX="38.0" layoutY="167.0" prefHeight="330.0" prefWidth="478.0" wrapText="true" />
+   <ImageView fitHeight="127.0" fitWidth="149.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+         <Image url="@WhatsApp_Image_2024-11-24_at_17.30.26-removebg-preview.png" />
+      </image>
+   </ImageView>
+
+</AnchorPane>

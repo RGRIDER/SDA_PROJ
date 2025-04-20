@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane stylesheets="@styles.css" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="536.0" prefWidth="558.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.sda_combine.ControllerOrganizerHomePage">
+   <children>
+      <AnchorPane layoutX="-5.0" layoutY="118.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="419.0" prefWidth="564.0" style="-fx-background-color: #bfbee6;">
+         <children>
+            <Button layoutX="321.0" layoutY="215.0" mnemonicParsing="false" onAction="#onAddAnnouncement" prefHeight="100.0" prefWidth="155.0" style="-fx-background-color: linear-gradient(to right, #4CAF50, #81C784);                -fx-text-fill: white;                -fx-font-size: 16px;                -fx-font-weight: bold;                -fx-border-color: #2E7D32;                -fx-border-width: 2px;                -fx-border-radius: 15;                -fx-background-radius: 15;" text="Add Announcement" textAlignment="CENTER" wrapText="true" />
+            <Button layoutX="104.0" layoutY="215.0" mnemonicParsing="false" onAction="#onViewFeedback" prefHeight="100.0" prefWidth="155.0" style="-fx-background-color: linear-gradient(to right, #4CAF50, #81C784);                -fx-text-fill: white;                -fx-font-size: 16px;                -fx-font-weight: bold;                -fx-border-color: #2E7D32;                -fx-border-width: 2px;                -fx-border-radius: 15;                -fx-background-radius: 15;" text="View Feedback" wrapText="true" />
+         </children></AnchorPane>
+      <Button layoutX="27.0" layoutY="188.0" mnemonicParsing="false" onAction="#onCreateEvent" prefHeight="100.0" prefWidth="155.0" style="-fx-background-color: linear-gradient(to right, #4CAF50, #81C784);                -fx-text-fill: white;                -fx-font-size: 16px;                -fx-font-weight: bold;                -fx-border-color: #2E7D32;                -fx-border-width: 2px;                -fx-border-radius: 15;                -fx-background-radius: 15;" text="Create Event" wrapText="true" />
+      <Button layoutX="211.0" layoutY="188.0" mnemonicParsing="false" onAction="#onModifyEvent" prefHeight="100.0" prefWidth="155.0" style="-fx-background-color: linear-gradient(to right, #4CAF50, #81C784);                -fx-text-fill: white;                -fx-font-size: 16px;                -fx-font-weight: bold;                -fx-border-color: #2E7D32;                -fx-border-width: 2px;                -fx-border-radius: 15;                -fx-background-radius: 15;" text="Modify Event" wrapText="true" />
+      <Button layoutX="388.0" layoutY="188.0" mnemonicParsing="false" onAction="#onEventDetails" prefHeight="100.0" prefWidth="155.0" style="-fx-background-color: linear-gradient(to right, #4CAF50, #81C784);                -fx-text-fill: white;                -fx-font-size: 16px;                -fx-font-weight: bold;                -fx-border-color: #2E7D32;                -fx-border-width: 2px;                -fx-border-radius: 15;                -fx-background-radius: 15;" text="Event Details" wrapText="true" />
+      <AnchorPane layoutX="-4.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" opacity="0.79" prefHeight="118.0" prefWidth="564.0" style="-fx-background-color: #e340c2;" />
+      <ImageView fitHeight="127.0" fitWidth="149.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@WhatsApp_Image_2024-11-24_at_17.30.26-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="210.0" layoutY="74.0" text="ORGANIZER">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,118 @@
+/* General Styles */
+* {
+  -fx-font-family: "Arial";
+  -fx-focus-color: transparent;
+  -fx-faint-focus-color: transparent;
+}
+
+/* Labels */
+.label {
+  -fx-text-fill: #333; /* Dark gray text color */
+  -fx-font-weight: bold;
+}
+
+/* Error Labels */
+#error-label {
+  -fx-text-fill: #fb0e1e; /* Red for error messages */
+  -fx-font-size: 16px;
+  -fx-font-weight: bold;
+  -fx-alignment: center;
+}
+
+/* Text Fields */
+.text-field,
+.password-field {
+  -fx-border-color: #ccc;
+  -fx-border-radius: 5px;
+  -fx-padding: 5px;
+  -fx-font-size: 14px;
+  -fx-background-color: #fff;
+}
+
+.text-field:focused,
+.password-field:focused {
+  -fx-border-color: #4caf50;
+  -fx-border-width: 2px;
+}
+
+/* Buttons */
+.button {
+  -fx-background-color: linear-gradient(to right, #4caf50, #81c784);
+  -fx-text-fill: white;
+  -fx-font-size: 16px;
+  -fx-font-weight: bold;
+  -fx-border-color: #2e7d32;
+  -fx-border-width: 2px;
+  -fx-border-radius: 15;
+  -fx-background-radius: 15;
+  -fx-padding: 10px;
+}
+
+.button:hover {
+  -fx-background-color: linear-gradient(to right, #388e3c, #66bb6a);
+  -fx-cursor: hand;
+}
+
+.button:pressed {
+  -fx-background-color: #2e7d32;
+}
+
+/* Radio Buttons */
+.radio-button {
+  -fx-font-size: 14px;
+  -fx-text-fill: #333;
+}
+
+.radio-button:selected {
+  -fx-mark-color: #4caf50;
+}
+
+/* List View */
+.list-view {
+  -fx-border-color: #ccc;
+  -fx-border-radius: 5px;
+  -fx-background-radius: 5px;
+  -fx-padding: 5px;
+  -fx-background-color: #f9f9f9;
+}
+
+.list-view:focused {
+  -fx-border-color: #4caf50;
+}
+
+/* List Cell */
+.list-cell {
+  -fx-padding: 10px;
+  -fx-text-fill: #333;
+  -fx-font-size: 14px;
+}
+
+.list-cell:hover {
+  -fx-background-color: #f1f8e9;
+  -fx-cursor: hand;
+}
+
+.list-cell:focused {
+  -fx-background-color: #dcedc8;
+}
+
+/* Hyperlink-style Labels */
+.label[underline="true"] {
+  -fx-text-fill: #0000ee;
+  -fx-cursor: hand;
+  -fx-underline: true;
+}
+
+.label[underline="true"]:hover {
+  -fx-text-fill: #551a8b;
+}
+
+/* AnchorPane Background Colors */
+.anchor-pane-title {
+  -fx-background-color: #e340c2;
+  -fx-opacity: 0.79;
+}
+
+.anchor-pane-content {
+  -fx-background-color: #bfbee6;
+}
